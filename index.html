@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GoblinWeld</title>
+	<link rel="stylesheet" href="style.css">
+	<bgsound src="audio/strah.mp3" loop="-1" volume="750"></bgsound>
+</head>
+<body>
+
+	<audio src="audio/strah.mp3" autoplay="autoplay">
+		tag not support
+	</audio>
+
+	<button class="leave">Х</button>
+	<canvas width="1250" height="590"></canvas>
+
+	<div class="top"></div>
+
+	<form action="">
+		<h1>GoblinWeld</h1>
+		<div class="container">
+			<div class="nikName">		
+				<label for="name">Type your nik</label>
+				<input type="text" id="name" placeholder="Nik" autocomplete="off">
+			</div>	
+			<div class="buttons">
+				<button class="start">Start!</button>
+				<button class="record">Records</button>
+			</div>
+		</div>	
+		<div class="contain">
+				<p><a href="index_ins.html">Инструкция</a></p>
+				
+		</div>
+	</form>
+
+	<div class="down"></div>
+
+
+
+	<section class = 'tableOfRecords'>
+		<button class="closeTable">X</button>
+		<section class="theTip">
+			<p class="place">The place</p>
+			<p class="name">Name</p>
+			<p class="score">Score</p>
+			<p class="Time">Time</p>
+		</section>
+	</section>
+
+	<section class="win">
+	</section>
+
+	<section class="defeat">
+	</section>
+
+
+	<script src = 'StartMenu.js'></script>
+	<script src = 'initGame.js'></script>
+
+</body>
+</html>

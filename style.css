@@ -1,0 +1,246 @@
+body {
+	background: #1d012a;
+	color: #fff;
+}
+
+canvas {
+	display: none;
+}
+
+form {
+	width: 90%;
+	min-height: 370px;
+	height: 75vh;
+	margin: 8vh auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url('img/menuBack.png');
+	background-position:cover;
+}
+
+.nikName {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 66%;
+	margin-left: -33%;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: 10%;
+}
+
+.top{
+	width: 100%;
+	height: 50px;
+	background-color: #191d1a;
+	display: flex;
+	border: 4px solid blue;
+	border-top-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	margin-top: 10%;
+}
+
+.down{
+	width: 100%;
+	height: 50px;
+	background-color: #191d1a;
+	display: flex;
+	border: 4px solid blue;
+	border-bottom-left-radius: 100px;
+	border-top-right-radius: 100px;
+	margin-bottom: 10%;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	margin-top: 1%;
+}
+
+.contain{
+	display: flex;
+	flex-direction: column;
+	margin-top: 110px;
+}
+
+input {
+	border-radius: 15px;
+	height: 40px;
+	font: italic 2rem Arial;
+	outline-style: none;
+	padding-left: 15px;
+	border-color: #74d586;
+}
+
+label {
+	font: italic 2.2rem Arial;
+	margin-bottom: 4vh;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+	font: 2.8rem Arial;
+	font-style: italic;
+	margin: 0 0 8vh 0 ;
+}
+
+.start{
+	cursor: pointer;
+	color: #fff;
+    border: 2px solid #fff;
+	width: 200px;
+	margin-right: 45%;
+	margin-top: 5vh;
+	padding: 15px;
+	font: italic 1.4rem Arial;
+	border-radius: 10px;
+	background: #000;
+	outline-style: none;
+}
+
+.record{
+	cursor: pointer;
+	color: #fff;
+    border: 2px solid #fff;
+	width: 200px;
+	margin-right: 45%;
+	margin-top: 5vh;
+	padding: 15px;
+	font: italic 1.4rem Arial;
+	border-radius: 10px;
+	background: #000;
+	outline-style: none;
+}
+
+.record:hover{
+	transition: 0.8s;
+	font: italic 2rem Arial;
+	border: 3px solid #fff;
+	color: #c83232;: 0.8s;
+}
+
+.start:hover{
+	transition: 0.8s;
+	font: italic 2rem Arial;
+	border: 3px solid #fff;
+	color: #c83232;: 0.8s;
+}
+
+button {
+	margin-top: 5vh;
+	padding: 15px;
+	font: italic 1.4rem Arial;
+	border-radius: 10px;
+	background: #000;
+	outline-style: none;
+}
+
+a{
+	cursor: pointer;
+	color: #fff;
+    border: 2px solid #fff;
+	width: 200px;
+	margin-right: 45%;
+	margin-top: 5vh;
+	padding: 15px;
+	font: italic 1.4rem Arial;
+	border-radius: 10px;
+	background: #000;
+	outline-style: none;
+	text-decoration: none;
+}
+
+.leave {
+	display: none;
+	background: none;
+	width: 50px;
+	position: absolute;
+	top: -2%;
+	right: 3%;
+	border: 5px solid grey;
+	color: grey;
+	padding: 10px;
+}
+
+.tableOfRecords {
+	position: relative;
+	display: none;
+}
+
+.tableOfRecordsOpen {
+	margin: 4vh auto;
+	display: flex;
+	width: 80%;
+	min-height: 550px;
+	box-sizing: border-box;
+	flex-direction: column;
+	background-color: #5c2222;
+	border: 3px solid #defe00;
+	border-radius: 25px;
+}
+
+.name{
+	background-color: #5c5c1e;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.score{
+	background-color: green;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.Time{
+	background-color: blue;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.tableOfRecords .closeTable {
+	position: absolute;
+	top: -3%;
+	right: 2%;
+	width: 40px;
+	background: none;
+	padding: 10px;
+}
+
+.tableOfRecords .theTip {
+	border-bottom: 1px solid #fff;
+	order: 1;
+}
+
+.tableOfRecords section {
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	justify-content: space-around;
+	display: flex;
+	font: italic 1rem Arial;
+	order: 2;
+}
+
+.tableOfRecords section p {
+	flex-basis: 25%;
+}
+
+.win, .defeat{
+	width: 30%;
+	text-align: center;
+	border: 3px solid;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 10vh auto;
+	display: none;
+	font-size: 40px;
+}
